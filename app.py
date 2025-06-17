@@ -5,12 +5,10 @@ st.set_page_config(
   layout="wide"
   initial_sidebar_state="expanded"
 )
-
-st.title("📁 Load Local Dataset")
-
-df = pd.read_csv("data.csv")
+st.title("Covid 19 Dashboard")
+df = pd.read_csv("covid_data(2).xlsx")
 st.write("Loaded Data:")
 st.dataframe(df)
 
-st.title("Covid 19 Dashboard")
+
 st.write("")
